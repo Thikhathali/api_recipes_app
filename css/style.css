@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+.category {
+    margin: 50px auto;
+}
+
+.category .category-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.recipe-items span {
+    position: absolute;
+    margin-left: 150px;
+    transform: rotate(90deg);
+}
+
+li #item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    text-align: center;
+    width: 100vw;
+    margin: auto auto;
+}
+
+.footer {
+    position: fixed;
+    bottom: 10px;
+    width: 100vw;
+    text-align: center;
+}
